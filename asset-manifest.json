@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-drag-drop-file/static/css/main.5b1f83dd.css",
+    "main.js": "/react-drag-drop-file/static/js/main.6b1242d9.js",
+    "index.html": "/react-drag-drop-file/index.html",
+    "main.5b1f83dd.css.map": "/react-drag-drop-file/static/css/main.5b1f83dd.css.map",
+    "main.6b1242d9.js.map": "/react-drag-drop-file/static/js/main.6b1242d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b1f83dd.css",
+    "static/js/main.6b1242d9.js"
+  ]
+}

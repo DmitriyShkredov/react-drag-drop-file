@@ -1,39 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.wrapper {
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  min-height: 100vh;
+  padding: 16px;
 }
 
-.App-link {
-  color: #61dafb;
-  text-decoration: none;
+h1 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: #0a749f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2,
+p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #007195;
+  text-align: center;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px 20px;
+  background-color: #ededed;
+  border: 2px dashed rgb(186, 191, 195);
+  border-radius: 10px;
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.5);
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form.drag {
+  border-color: rgb(62, 201, 80);
+  background-color: #e6ffe3;
+}
+
+.label {
+  padding: 5px 10px;
+  background-color: #0998d3;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.file-list {
+  margin-top: 1.25rem;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.file-list li {
+  width: 100%;
+  text-align: center;
+  padding: 6px 16px;
+  border: 1px dashed rgb(187, 183, 183);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1;
+  color: #515151;
+}
+
+.file-list li:nth-child(n + 2) {
+  margin-top: 4px;
+}
+
+.button-reset,
+.button-submit {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.button-reset {
+  left: 40px;
+  background-color: #da6b6b;
+}
+
+.button-submit {
+  right: 40px;
+  background-color: #6bb554;
 }

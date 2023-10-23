@@ -1,9 +1,13 @@
-# React-drag-drop-file
+## React-drag-drop-file
 
-### `Demo:` https://dmitriyshkredov.github.io/react-drag-drop-file/
+#### `Demo:` https://dmitriyshkredov.github.io/react-drag-drop-file/
 
-### `git clone https://github.com/DmitriyShkredov/react-drag-drop-file.git`
+#### `Telegram:` [https://t.me/tipichnyj_web_razrabotchik](https://t.me/tipichnyj_web_razrabotchik)
 
-### `npm install`
+#### `Youtube:` [Drag and Drop загрузка файлов перетаскиванием в React](https://youtu.be/a7zF3zFWIOI)
 
-### `npm start`
+#### `git clone https://github.com/DmitriyShkredov/react-drag-drop-file.git`
+
+#### `npm install`
+
+#### `npm start`
